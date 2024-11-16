@@ -1,0 +1,10 @@
+name: NOAFK
+version: 1.0
+main: com.maijsoft.NOAFK.AFKKickPlugin
+api-version: 1.21
+commands:
+  NOAFK:
+    description: AFK 킥 시간 설정 명령어
+    usage: /NOAFK <분>
+    permission: noafk.set
+    permission-message: "이 명령어를 사용할 권한이 없습니다."
